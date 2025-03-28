@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyeom/cpp/MyProject
+CMAKE_SOURCE_DIR = /home/kyeom/cpp/Git_Myproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyeom/cpp/MyProject/build
+CMAKE_BINARY_DIR = /home/kyeom/cpp/Git_Myproject/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/my_program.dir/clean
 CMakeFiles/my_program.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kyeom/cpp/MyProject/build/CMakeFiles --progress-num=1,2,3,4 "Built target my_program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kyeom/cpp/Git_Myproject/build/CMakeFiles --progress-num=1,2,3,4 "Built target my_program"
 .PHONY : CMakeFiles/my_program.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/my_program.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyeom/cpp/MyProject/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyeom/cpp/Git_Myproject/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/my_program.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyeom/cpp/MyProject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kyeom/cpp/Git_Myproject/build/CMakeFiles 0
 .PHONY : CMakeFiles/my_program.dir/rule
 
 # Convenience name for target.
