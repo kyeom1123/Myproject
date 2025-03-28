@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/my_program.dir/src/main.cpp.o CMakeFiles/my_program.dir/src/Vehicle.cpp.o CMakeFiles/my_program.dir/src/ElectricCar.cpp.o -o my_program 
