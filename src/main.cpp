@@ -5,6 +5,7 @@ int main() {
 
     tesla.showInfo();
     tesla.chargeBattery(10);
+    tesla.chargeBattery(5);
 
     return 0;
 }
