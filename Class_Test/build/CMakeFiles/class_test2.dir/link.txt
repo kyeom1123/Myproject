@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/class_test2.dir/src/class_test2.cpp.o -o class_test2 
