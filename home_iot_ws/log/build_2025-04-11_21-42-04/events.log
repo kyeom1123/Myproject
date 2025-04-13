@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.000721] (sensor_node) JobQueued: {'identifier': 'sensor_node', 'dependencies': OrderedDict()}
+[0.000885] (sensor_node) JobStarted: {'identifier': 'sensor_node'}
+[0.007470] (sensor_node) JobProgress: {'identifier': 'sensor_node', 'progress': 'cmake'}
+[0.008102] (sensor_node) Command: {'cmd': ['/usr/bin/cmake', '/home/kyeom/coding/git_hub/home_iot_ws/src', '-DCMAKE_INSTALL_PREFIX=/home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node'], 'cwd': '/home/kyeom/coding/git_hub/home_iot_ws/build/sensor_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kyeom'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kyeom'), ('OLDPWD', '/home/kyeom/coding/git_hub/home_iot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1295'), ('SYSTEMD_EXEC_PID', '1531'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3399'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kyeom'), ('JOURNAL_STREAM', '8:14343'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kyeom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kyeom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kyeom-Mac:@/tmp/.ICE-unix/1488,unix/kyeom-Mac:/tmp/.ICE-unix/1488'), ('INVOCATION_ID', '334b4bd028b14e2cbdb148b954a763ff'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I5V342'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:65d9a1cb-319b-4e29-8761-b85d7577efe8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kyeom/coding/git_hub/home_iot_ws/build/sensor_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.023142] (sensor_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099754] (-) TimerEvent: {}
+[0.147275] (sensor_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.174081] (sensor_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.176639] (sensor_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.182358] (sensor_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.191681] (sensor_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199844] (-) TimerEvent: {}
+[0.203739] (sensor_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.238581] (sensor_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.239819] (sensor_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300005] (-) TimerEvent: {}
+[0.336273] (sensor_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.385114] (sensor_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.400118] (-) TimerEvent: {}
+[0.483059] (sensor_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.496173] (sensor_node) StdoutLine: {'line': b'-- Generating done\n'}
+[0.500258] (-) TimerEvent: {}
+[0.500991] (sensor_node) StdoutLine: {'line': b'-- Build files have been written to: /home/kyeom/coding/git_hub/home_iot_ws/build/sensor_node\n'}
+[0.508323] (sensor_node) CommandEnded: {'returncode': 0}
+[0.509988] (sensor_node) JobProgress: {'identifier': 'sensor_node', 'progress': 'build'}
+[0.510048] (sensor_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kyeom/coding/git_hub/home_iot_ws/build/sensor_node', '--', '-j4', '-l4'], 'cwd': '/home/kyeom/coding/git_hub/home_iot_ws/build/sensor_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kyeom'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kyeom'), ('OLDPWD', '/home/kyeom/coding/git_hub/home_iot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1295'), ('SYSTEMD_EXEC_PID', '1531'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3399'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kyeom'), ('JOURNAL_STREAM', '8:14343'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kyeom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kyeom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kyeom-Mac:@/tmp/.ICE-unix/1488,unix/kyeom-Mac:/tmp/.ICE-unix/1488'), ('INVOCATION_ID', '334b4bd028b14e2cbdb148b954a763ff'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I5V342'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:65d9a1cb-319b-4e29-8761-b85d7577efe8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kyeom/coding/git_hub/home_iot_ws/build/sensor_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.560196] (sensor_node) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/sensor_node.dir/src/sensor_node.cpp.o\x1b[0m\n'}
+[0.562983] (sensor_node) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/temperature_subscriber.dir/src/main.cpp.o\x1b[0m\n'}
+[0.563325] (sensor_node) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/temperature_subscriber.dir/src/temperature_subscriber.cpp.o\x1b[0m\n'}
+[0.600386] (-) TimerEvent: {}
+[0.700891] (-) TimerEvent: {}
+[0.801238] (-) TimerEvent: {}
+[0.901556] (-) TimerEvent: {}
+[1.001876] (-) TimerEvent: {}
+[1.102646] (-) TimerEvent: {}
+[1.202988] (-) TimerEvent: {}
+[1.303438] (-) TimerEvent: {}
+[1.403774] (-) TimerEvent: {}
+[1.504217] (-) TimerEvent: {}
+[1.604555] (-) TimerEvent: {}
+[1.704890] (-) TimerEvent: {}
+[1.805236] (-) TimerEvent: {}
+[1.905566] (-) TimerEvent: {}
+[2.005899] (-) TimerEvent: {}
+[2.106232] (-) TimerEvent: {}
+[2.206559] (-) TimerEvent: {}
+[2.306892] (-) TimerEvent: {}
+[2.407235] (-) TimerEvent: {}
+[2.507554] (-) TimerEvent: {}
+[2.607889] (-) TimerEvent: {}
+[2.708223] (-) TimerEvent: {}
+[2.808544] (-) TimerEvent: {}
+[2.908871] (-) TimerEvent: {}
+[3.009203] (-) TimerEvent: {}
+[3.109538] (-) TimerEvent: {}
+[3.209867] (-) TimerEvent: {}
+[3.310200] (-) TimerEvent: {}
+[3.410530] (-) TimerEvent: {}
+[3.510859] (-) TimerEvent: {}
+[3.611192] (-) TimerEvent: {}
+[3.711528] (-) TimerEvent: {}
+[3.811869] (-) TimerEvent: {}
+[3.913300] (-) TimerEvent: {}
+[4.013639] (-) TimerEvent: {}
+[4.113958] (-) TimerEvent: {}
+[4.214287] (-) TimerEvent: {}
+[4.316303] (-) TimerEvent: {}
+[4.416651] (-) TimerEvent: {}
+[4.516978] (-) TimerEvent: {}
+[4.617349] (-) TimerEvent: {}
+[4.718301] (-) TimerEvent: {}
+[4.818733] (-) TimerEvent: {}
+[4.919077] (-) TimerEvent: {}
+[5.019407] (-) TimerEvent: {}
+[5.119729] (-) TimerEvent: {}
+[5.220064] (-) TimerEvent: {}
+[5.290070] (sensor_node) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable sensor_node\x1b[0m\n'}
+[5.320156] (-) TimerEvent: {}
+[5.420466] (-) TimerEvent: {}
+[5.520815] (-) TimerEvent: {}
+[5.524155] (sensor_node) StdoutLine: {'line': b'[ 80%] Built target sensor_node\n'}
+[5.620924] (-) TimerEvent: {}
+[5.721256] (-) TimerEvent: {}
+[5.821581] (-) TimerEvent: {}
+[5.921911] (-) TimerEvent: {}
+[6.022254] (-) TimerEvent: {}
+[6.122584] (-) TimerEvent: {}
+[6.222926] (-) TimerEvent: {}
+[6.323294] (-) TimerEvent: {}
+[6.423649] (-) TimerEvent: {}
+[6.523980] (-) TimerEvent: {}
+[6.624301] (-) TimerEvent: {}
+[6.724617] (-) TimerEvent: {}
+[6.824942] (-) TimerEvent: {}
+[6.925281] (-) TimerEvent: {}
+[7.025617] (-) TimerEvent: {}
+[7.125962] (-) TimerEvent: {}
+[7.226291] (-) TimerEvent: {}
+[7.326604] (-) TimerEvent: {}
+[7.426917] (-) TimerEvent: {}
+[7.527239] (-) TimerEvent: {}
+[7.627544] (-) TimerEvent: {}
+[7.727875] (-) TimerEvent: {}
+[7.828245] (-) TimerEvent: {}
+[7.928596] (-) TimerEvent: {}
+[8.028950] (-) TimerEvent: {}
+[8.129307] (-) TimerEvent: {}
+[8.229636] (-) TimerEvent: {}
+[8.329966] (-) TimerEvent: {}
+[8.430319] (-) TimerEvent: {}
+[8.530674] (-) TimerEvent: {}
+[8.631035] (-) TimerEvent: {}
+[8.731414] (-) TimerEvent: {}
+[8.831772] (-) TimerEvent: {}
+[8.932129] (-) TimerEvent: {}
+[9.032486] (-) TimerEvent: {}
+[9.132828] (-) TimerEvent: {}
+[9.233129] (-) TimerEvent: {}
+[9.333445] (-) TimerEvent: {}
+[9.433814] (-) TimerEvent: {}
+[9.534161] (-) TimerEvent: {}
+[9.634522] (-) TimerEvent: {}
+[9.734863] (-) TimerEvent: {}
+[9.835213] (-) TimerEvent: {}
+[9.935590] (-) TimerEvent: {}
+[10.035950] (-) TimerEvent: {}
+[10.136296] (-) TimerEvent: {}
+[10.236575] (-) TimerEvent: {}
+[10.325706] (sensor_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable temperature_subscriber\x1b[0m\n'}
+[10.336699] (-) TimerEvent: {}
+[10.436972] (-) TimerEvent: {}
+[10.537285] (-) TimerEvent: {}
+[10.637592] (-) TimerEvent: {}
+[10.700742] (sensor_node) StdoutLine: {'line': b'[100%] Built target temperature_subscriber\n'}
+[10.711444] (sensor_node) CommandEnded: {'returncode': 0}
+[10.712182] (sensor_node) JobProgress: {'identifier': 'sensor_node', 'progress': 'install'}
+[10.720909] (sensor_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kyeom/coding/git_hub/home_iot_ws/build/sensor_node'], 'cwd': '/home/kyeom/coding/git_hub/home_iot_ws/build/sensor_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kyeom'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kyeom'), ('OLDPWD', '/home/kyeom/coding/git_hub/home_iot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1295'), ('SYSTEMD_EXEC_PID', '1531'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3399'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kyeom'), ('JOURNAL_STREAM', '8:14343'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kyeom'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kyeom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kyeom-Mac:@/tmp/.ICE-unix/1488,unix/kyeom-Mac:/tmp/.ICE-unix/1488'), ('INVOCATION_ID', '334b4bd028b14e2cbdb148b954a763ff'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.I5V342'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:65d9a1cb-319b-4e29-8761-b85d7577efe8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kyeom/coding/git_hub/home_iot_ws/build/sensor_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.728150] (sensor_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.728451] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/lib/sensor_node/sensor_node\n'}
+[10.729551] (sensor_node) StdoutLine: {'line': b'-- Set runtime path of "/home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/lib/sensor_node/sensor_node" to ""\n'}
+[10.729773] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/lib/sensor_node/temperature_subscriber\n'}
+[10.732455] (sensor_node) StdoutLine: {'line': b'-- Set runtime path of "/home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/lib/sensor_node/temperature_subscriber" to ""\n'}
+[10.732674] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/ament_index/resource_index/package_run_dependencies/sensor_node\n'}
+[10.732913] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/ament_index/resource_index/parent_prefix_path/sensor_node\n'}
+[10.733151] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/sensor_node/environment/ament_prefix_path.sh\n'}
+[10.733347] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/sensor_node/environment/ament_prefix_path.dsv\n'}
+[10.733540] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/sensor_node/environment/path.sh\n'}
+[10.733719] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/sensor_node/environment/path.dsv\n'}
+[10.733890] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/sensor_node/local_setup.bash\n'}
+[10.734100] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/sensor_node/local_setup.sh\n'}
+[10.734265] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/sensor_node/local_setup.zsh\n'}
+[10.734517] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/sensor_node/local_setup.dsv\n'}
+[10.734685] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/sensor_node/package.dsv\n'}
+[10.734926] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/ament_index/resource_index/packages/sensor_node\n'}
+[10.735147] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/sensor_node/cmake/sensor_nodeConfig.cmake\n'}
+[10.735319] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/sensor_node/cmake/sensor_nodeConfig-version.cmake\n'}
+[10.735492] (sensor_node) StdoutLine: {'line': b'-- Installing: /home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node/share/sensor_node/package.xml\n'}
+[10.737219] (sensor_node) CommandEnded: {'returncode': 0}
+[10.737722] (-) TimerEvent: {}
+[10.756836] (sensor_node) JobEnded: {'identifier': 'sensor_node', 'rc': 0}
+[10.757491] (-) EventReactorShutdown: {}

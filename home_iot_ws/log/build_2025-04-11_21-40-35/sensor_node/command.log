@@ -1,0 +1,2 @@
+Invoking command in '/home/kyeom/coding/git_hub/home_iot_ws/build/sensor_node': /usr/bin/cmake /home/kyeom/coding/git_hub/home_iot_ws/src -DCMAKE_INSTALL_PREFIX=/home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node
+Invoked command in '/home/kyeom/coding/git_hub/home_iot_ws/build/sensor_node' returned '1': /usr/bin/cmake /home/kyeom/coding/git_hub/home_iot_ws/src -DCMAKE_INSTALL_PREFIX=/home/kyeom/coding/git_hub/home_iot_ws/install/sensor_node
