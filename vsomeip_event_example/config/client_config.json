@@ -1,0 +1,7 @@
+{
+    "service_id": "0x1234",
+    "instance_id": "0x5678",
+    "eventgroup_id": "0x01",
+    "event_id": "0x4444",
+    "application_name": "Client"
+} 
