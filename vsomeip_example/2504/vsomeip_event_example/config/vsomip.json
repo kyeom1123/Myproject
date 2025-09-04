@@ -1,0 +1,27 @@
+{
+  "unicast": "127.0.0.1",
+  "routing": "vsomeipd",
+  "logging": {
+    "level": "debug"
+  },
+  "applications": {
+    "Service": {
+      "id": "0x01"
+    },
+    "Client": {
+      "id": "0x02"
+    }
+  },
+  "services": [
+    {
+      "service": "0x1234",
+      "instance": "0x5678",
+      "eventgroups": [
+        {
+          "id": "0x01",
+          "events": [ "0x4444" ]
+        }
+      ]
+    }
+  ]
+}

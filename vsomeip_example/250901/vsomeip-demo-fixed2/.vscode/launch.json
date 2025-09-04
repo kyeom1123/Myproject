@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run someip_server",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/someip_server",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [
+        {
+          "name": "VSOMEIP_APPLICATION_NAME",
+          "value": "demo_server"
+        },
+        {
+          "name": "VSOMEIP_CONFIGURATION",
+          "value": "${workspaceFolder}/config/server.json"
+        }
+      ],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb"
+    },
+    {
+      "name": "Run someip_client",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/someip_client",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [
+        {
+          "name": "VSOMEIP_APPLICATION_NAME",
+          "value": "demo_client"
+        },
+        {
+          "name": "VSOMEIP_CONFIGURATION",
+          "value": "${workspaceFolder}/config/client.json"
+        }
+      ],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb"
+    }
+  ]
+}

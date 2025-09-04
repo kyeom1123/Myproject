@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "CMake configure",
+      "type": "shell",
+      "command": "cmake -S . -B build",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "CMake build",
+      "type": "shell",
+      "command": "cmake --build build -j",
+      "group": "build",
+      "dependsOn": [
+        "CMake configure"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

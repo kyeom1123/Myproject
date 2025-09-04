@@ -1,0 +1,9 @@
+{
+  "unicast": "127.0.0.1",
+  "applications": [
+    {
+      "name": "demo_server",
+      "id": "0x1111"
+    }
+  ]
+}

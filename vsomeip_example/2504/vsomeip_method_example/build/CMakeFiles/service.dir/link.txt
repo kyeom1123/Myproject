@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/service.dir/src/service.cpp.o -o service  -Wl,-rpath,/usr/local/lib /usr/local/lib/libvsomeip3.so.3.5.5 

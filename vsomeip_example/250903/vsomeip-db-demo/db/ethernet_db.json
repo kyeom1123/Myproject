@@ -1,0 +1,8 @@
+{
+  "service": {
+    "id": "0x0420",
+    "instance": "0x0001",
+    "major": 1,
+    "minor": 0
+  }
+}
